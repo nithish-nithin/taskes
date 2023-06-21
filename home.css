@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body {
+        background-color: rgb(250, 247, 243);
+    }
+    .container {
+          height: 50vh;
+         top: 0;
+         position: relative;
+         display: flex;
+    }
+    .video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        top: 0;
+        height: 50vh;
+    }
+     .list{
+        display: none;
+     }
+     .logo{
+         margin-left: 20px;
+
+     }
+     .btn{
+      width: 100px;
+      padding: 10px;
+     background: none;
+      border: solid white;
+      color: white;
+      border-radius: 10px;
+     }
+     .con{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;    
+       }
+
+       .btn{
+
+        height: 50px;
+       }
+       .btn2{
+        color: white;
+         font-size: 20px;
+         }
+          .login{
+
+             margin-right: 30px;
+            display: flex;
+
+          }
+
+      
+    
+@media(min-width:1200px) {
+    .parent {
+        height: 65vh;
+    }
+    .image {
+        width: 160px;
+        height:28px;
+        padding:50px;
+    }
+    .video {
+        left: 0;
+        height: 65vh;
+    }
+     
+       
+}
